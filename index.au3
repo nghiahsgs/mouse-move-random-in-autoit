@@ -8,7 +8,7 @@ Func MouseClickRand($mouseType,$coord_x,$coord_y)
     $current_y=MouseGetPos()[1]
 
     MouseMoveRandom($current_x, $current_y, $coord_x, $coord_y)
-    MouseClick($coord_x,$coord_y)
+    MouseClick('main',$coord_x,$coord_y)
 EndFunc
 
 Func MouseMoveRandom($start_x, $start_y, $end_x, $end_y)
