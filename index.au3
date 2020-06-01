@@ -1,9 +1,9 @@
 #include <Array.au3>
 ;~ MouseMoveRandom(704, 664,104, 236)
 
-;~ MouseClickRand(571, 671)
+MouseClickRand('main',571, 671)
 
-Func MouseClickRand($coord_x,$coord_y)
+Func MouseClickRand($mouseType,$coord_x,$coord_y)
     $current_x=MouseGetPos()[0]
     $current_y=MouseGetPos()[1]
 
